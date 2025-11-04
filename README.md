@@ -52,10 +52,11 @@ Notes
 
 This is a console-based style implementation for simplicity. 
 For a graphical version, consider using a library like Pygame.
-The game speed is controlled by a 0.5-second interval for automatic piece descent. Adjust the time.sleep value in the game loop to change the speed.
+The game speed is controlled by a 0.5-second interval for automatic piece descent. 
+
+Adjust the time.sleep value in the game loop to change the speed.
 The input handling is optimized for Unix-like systems. For Windows compatibility, you may need to replace the select/tty logic with msvcrt or run in a compatible environment like WSL.
 The score increments by 100 per cleared line. You can enhance this by adding bonuses for multiple lines cleared simultaneously.
 
-This implementation provides a functional Tetris game suitable for a tutorial. Let me know if you need modifications, such as a Pygame version or Windows-specific input handling!
 
 On the last note remember this is just a proof of concept.
